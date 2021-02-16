@@ -4,3 +4,25 @@
 form {
     margin:1em auto;
 }
+#shape-Container{
+    height: 600px;
+    width: 600px;
+    background-color: cadetblue;
+    margin:3em auto;
+    position:relative
+}
+
+#sidepannel{
+    margin: 3em;
+    padding: 0 1em;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    position:absolute;
+    right:10em;
+}
+
+#shapeboard{
+    display: flex;
+    position: relative;
+}
