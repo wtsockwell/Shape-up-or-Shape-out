@@ -5,7 +5,7 @@ form {
     margin:1em auto;
 }
 #shape-Container{
-    height: 600px;
+    height: 602px;
     width: 600px;
     background-color: cadetblue;
     margin:3em auto;
@@ -25,4 +25,23 @@ form {
 #shapeboard{
     display: flex;
     position: relative;
+}
+
+.circle{
+    background-color: purple;
+    position:absolute;
+}
+
+.square{
+    background-color: red;
+    position: absolute;
+}
+
+.rectangle{
+    background-color: green;
+    position:absolute;
+}
+
+.triangle{
+    position:absolute;
 }

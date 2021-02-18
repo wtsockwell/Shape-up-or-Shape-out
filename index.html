@@ -10,21 +10,22 @@
 <body>
     <div id="container">
         <form>
-            <input type="number" name="Rectangle" id="rectangle-height" placeholder="Height">
-            <input type="number" name="Rectangle" id="rectangle-width" placeholder="Width">
-            <button name="Rectangle">Make a Rectangle</button>
+            <input type="number" min=0 max=600 name="Rectangle" id="rectangle-height" placeholder="Height">
+            <input type="number" min=0 max=600 name="Rectangle" id="rectangle-width" placeholder="Width">
+            <button name="Rectangle" id="rectangleBtn">Make a Rectangle</button>
         </form>
         <form>
-            <input type="number" name="Square" id="square" placeholder="Size">
-            <button name="square">Make a Square</button>
+            <input type="number" min=0 max=600 name="Square" id="square" placeholder="Size">
+            <button name="square" id="squareBtn">Make a Square</button>
         </form>
         <form>
-            <input type="number" name="Circle" id="circle" placeholder="Radius">
-            <button name="Circle">Make a Circle</button>
+            <input type="number" min=0 max=600 name="Circle" id="circle" placeholder="Radius">
+            <button name="Circle" id="circleBtn">Make a Circle</button>
         </form>
         <form>
-            <input type="number" name="Triangle" id="triangle" placeholder="Height">
-            <button name="Triangle">Make a Triangle</button>
+            <input type="number" min=0 max=600 name="Triangle" id="triangle-base" placeholder="Base">
+            <input type="number" min=0 max=600 name="Triangle" id="triangle-height" placeholder="Height">
+            <button name="Triangle" id="triangleBtn">Make a Triangle</button>
         </form>
     </div>
     <div id="shapeboard">
@@ -44,6 +45,7 @@
             <p id="shapePerimiter">placeholder</p>
         </div>
     </div>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 </html>
